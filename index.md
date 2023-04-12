@@ -15,8 +15,20 @@ There should be whitespace between paragraphs. We recommend including a README, 
 Describe the data and its background info and Introduction to a research question (what is the background on this subject; why does the question matter; who will it help; how has been attempted to be answered)
 Task for Class - Useful and appropriate
 
+# reform
+
+
 ## analysis
 Project describes integration of class concepts and discusses why analysis was chosen
+1.graph
+2.feature selection
+3.custer plots
+
+## Reflection 
+comparison on features
+ability to product yields
+what data is useful/missing
+
 
 ## Methods
 
