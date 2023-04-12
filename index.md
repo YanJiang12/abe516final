@@ -19,26 +19,26 @@ Task for Class - Useful and appropriate
 reform from different years
 reform for scales of each parts
 
-## analysis
+# analysis
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
 2.feature selection
 3.custer plots
 
-## Reflection 
+# Reflection 
 comparison on features
 ability to product yields
 what data is useful/missing
 
 
-## Methods
+# Methods
 
 describe the methods and each limitation
 what from the class did you use in this project and why might it be useful for research projects like this?
 What are the advantages and disadvantages?  
 Were there any assumptions or transformations needed? 
 
-### Discussion
+# Discussion
 
 what from the class did you use in this project and why might it be useful for research projects like this?
 What are the advantages and disadvantages?  
