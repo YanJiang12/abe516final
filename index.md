@@ -16,7 +16,8 @@ Describe the data and its background info and Introduction to a research questio
 Task for Class - Useful and appropriate
 
 # reform
-
+reform from different years
+reform for scales of each parts
 
 ## analysis
 Project describes integration of class concepts and discusses why analysis was chosen
