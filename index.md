@@ -10,17 +10,30 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# Header 5
+# Introduction
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Describe the data and its background info and Introduction to a research question (what is the background on this subject; why does the question matter; who will it help; how has been attempted to be answered)
+Task for Class - Useful and appropriate
 
-## Header 2
+## analysis
+Project describes integration of class concepts and discusses why analysis was chosen
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Methods
 
-### Header 3
+describe the methods and each limitation
+what from the class did you use in this project and why might it be useful for research projects like this?
+What are the advantages and disadvantages?  
+Were there any assumptions or transformations needed? 
+
+### Discussion
+
+what from the class did you use in this project and why might it be useful for research projects like this?
+What are the advantages and disadvantages?  
+Were there any assumptions or transformations needed? 
+
+How much does your analysis attain the FAIR principles? For example, what is the ability to automate and reproduce your analysis (if the file input were to change, could this analysis be reproduced and how easily?)  - how will someone else reproduce this analysis?  Is the data stored somewhere?  Can I reproduce the figures easily?
+Creation of one assignment based on your dataset for the class to complete - one can think of this of a task or homework assignment based on your project.
+
 
 ```js
 // Javascript code with syntax highlighting.
