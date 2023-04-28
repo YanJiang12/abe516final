@@ -13,11 +13,16 @@ There should be whitespace between paragraphs. We recommend including a README, 
 # Introduction
 
 Describe the data and its background info and Introduction to a research question (what is the background on this subject; why does the question matter; who will it help; how has been attempted to be answered)
-Task for Class - Useful and appropriate
 
-# reform
-reform from different years
-reform for scales of each parts
+
+  This is the transgenic crop value data in each states from the year 2000 to 2022. It discribe the corn, soybean, upland cotton by deviding them into categories as all GE varieties, Herbicide-tolerant, insect resistance, stacked gene varieties.
+  Studying this data table can be helpful on figuring out the advantage and disadvantages of each states for planting the crops and predicting the future biotech development direction.
+
+
+# Reform
+1.Reform the table by different States
+2.Reform the table by different Attributes
+
 
 # analysis
 Project describes integration of class concepts and discusses why analysis was chosen
