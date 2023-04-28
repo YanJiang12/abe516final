@@ -136,16 +136,6 @@ end
 
 ###### Header 6
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
 
 ### Here is an unordered list:
 
@@ -184,7 +174,6 @@ end
 ### Large image
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
-![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253651-81edd4c1-8037-48ff-a42e-ed739786017c.png)
 
 
 
