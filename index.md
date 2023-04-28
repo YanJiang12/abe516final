@@ -66,6 +66,8 @@ for state in sorted(data1.State.unique()):
     plt.legend()
     plt.show()
     plt.savefig(f'State Analysis/{state}.jpg')
+    ![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253726-55e43f2a-8f82-4485-8f68-ebb067f8457b.png)
+
 ```
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
