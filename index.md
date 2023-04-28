@@ -29,9 +29,14 @@ Describe the data and its background info and Introduction to a research questio
 
 ```ruby
 # Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
+import os.path
+
+import pandas as pd
+from matplotlib import pyplot as plt
+plt.rcParams['font.sans-serif']=["SimHei"]
+plt.figure(figsize=(14, 12))
+data1 = pd.read_csv("BiotechCropsAllTables2022.csv")
+data1['Value'] = data1["Value"].apply(lambda x: 0 if x =="*" or x=="." else int(x))
 ```
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
