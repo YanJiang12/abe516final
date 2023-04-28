@@ -96,6 +96,44 @@ plt.show()
 ```
 ![State Value trend](https://user-images.githubusercontent.com/130382954/235270266-f9d59094-094c-4e36-84ee-d78e8ae0bb85.jpg)
 
+* * *
+```
+# Analysis by Attributes
+for attribute in sorted(data1.Attribute.unique()):
+    data2 = data1[data1["Attribute"] == attribute]
+    mean2 = data2.Value.mean()
+    dict2[attribute] = mean2
+    plt.figure(figsize=(12, 8))
+    for state in data2.State.unique():
+        year_dict2 = {i: 0 for i in year1}
+        data3 = data2[data2["State"] == state]
+        for m in range(data3.shape[0]):
+            year_dict2[list(data3["Year"])[m]] = list(data3["Value"])[m]
+        plt.plot(year1, year_dict2.values(), marker='o', label=state)
+    plt.xticks(fontproperties='Times New Roman', fontsize=10)
+    plt.yticks(fontproperties='Times New Roman', fontsize=10)
+    plt.title(f'Trend of {attribute}in each State')
+    plt.legend()
+    plt.savefig(f'Attribute Analysis/{attribute}.jpg')
+    plt.show()
+```
+![All GE varieties (percent of all corn planted)](https://user-images.githubusercontent.com/130382954/235270338-ab5943a3-655e-43fb-acf1-0c179578dfe8.jpg)
+
+```
+# Attribute Average Value
+dict2 = {k.replace(' (percent','(percent\n'): v for k, v in sorted(dict2.items(), key=lambda item: item[1],reverse=True)}
+cm2 = plt.bar([i for i in dict2.keys()],[i for i in dict2.values()],width=0.5,color="r")
+autolabel(cm2)
+plt.xlabel("Attribute", size=12)
+plt.ylabel("Value", size=12)
+plt.title("Attribute Average score")
+plt.xticks(rotation=90, ha='center')
+plt.subplots_adjust(bottom=0.6)
+plt.savefig(f'Attribute Analysis/Attribute.jpg')
+plt.show()
+```
+![Attribute](https://user-images.githubusercontent.com/130382954/235270355-1988f8ad-eeee-4d86-b0b0-0fd74124f65b.jpg)
+
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
 2.feature selection
