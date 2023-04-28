@@ -35,7 +35,7 @@ plt.rcParams['font.sans-serif']=["SimHei"]
 plt.figure(figsize=(14, 12))
 data1 = pd.read_csv("BiotechCropsAllTables2022.csv")
 data1['Value'] = data1["Value"].apply(lambda x: 0 if x =="*" or x=="." else int(x))
-ef autolabel(rects):
+def autolabel(rects):
     for rect in rects:
         height = rect.get_height()
         plt.text(rect.get_x()+rect.get_width()/2.-0.08, 1.03*height, '%s' % int(height), size=10, family="Times new roman")
@@ -49,20 +49,24 @@ if not os.path.exists("State Analysis"):
     os.makedirs("State Analysis")
 if not os.path.exists("Attribute Analysis"):
     os.makedirs("Attribute Analysis")
-    ef autolabel(rects):
-    for rect in rects:
-        height = rect.get_height()
-        plt.text(rect.get_x()+rect.get_width()/2.-0.08, 1.03*height, '%s' % int(height), size=10, family="Times new roman")
+for state in sorted(data1.State.unique()):
+    data2 = data1[data1["State"] == state]
+    mean1 = data2.Value.mean()
+    dict1[state] = mean1
 
-dict1 = {}
-dict2 = {}
-
-year1 = sorted(data1.Year.unique())
-
-if not os.path.exists("State Analysis"):
-    os.makedirs("State Analysis")
-if not os.path.exists("Attribute Analysis"):
-    os.makedirs("Attribute Analysis")
+    plt.figure(figsize=(12, 8))
+    for attribute in data2.Attribute.unique():
+        year_dict1 = {i: 0 for i in year1}
+        data3 = data2[data2["Attribute"]==attribute]
+        for m in range(data3.shape[0]):
+            year_dict1[list(data3["Year"])[m]] = list(data3["Value"])[m]
+        plt.plot(year1, year_dict1.values(), marker='o', label=attribute.replace('percent','percent\n'))
+    plt.xticks(fontproperties='Times New Roman', fontsize=10)
+    plt.yticks(fontproperties='Times New Roman', fontsize=10)
+    plt.title(f'The trend of each Attributes in {state}')
+    plt.legend()
+    plt.show()
+    plt.savefig(f'State Analysis/{state}.jpg')
 ```
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
