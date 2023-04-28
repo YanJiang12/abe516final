@@ -38,6 +38,26 @@ data1 = pd.read_csv("BiotechCropsAllTables2022.csv")
 data1['Value'] = data1["Value"].apply(lambda x: 0 if x =="*" or x=="." else int(x))
 
 ```
+
+```python
+# Setting up autolabel and year
+def autolabel(rects):
+    for rect in rects:
+        height = rect.get_height()
+        plt.text(rect.get_x()+rect.get_width()/2.-0.08, 1.03*height, '%s' % int(height), size=10, family="Times new roman")
+
+dict1 = {}
+dict2 = {}
+year1 = sorted(data1.Year.unique())
+
+if not os.path.exists("State Analysis"):
+    os.makedirs("State Analysis")
+if not os.path.exists("Attribute Analysis"):
+    os.makedirs("Attribute Analysis")
+```
+
+* * *
+
 ![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253790-972935ec-ec02-43f1-b4fc-f1e46bba21cd.png)
 
 Project describes integration of class concepts and discusses why analysis was chosen
