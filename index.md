@@ -80,6 +80,22 @@ for state in sorted(data1.State.unique()):
 ```
 ![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253790-972935ec-ec02-43f1-b4fc-f1e46bba21cd.png)
 
+```
+# State Average Value
+dict1 = {k: v for k, v in sorted(dict1.items(), key=lambda item: item[1])}
+cm1 = plt.bar([i for i in dict1.keys()],[i for i in dict1.values()],width=0.5,color="g")
+autolabel(cm1)
+plt.xlabel("State", size=12)
+plt.ylabel("Value", size=12)
+plt.xticks(rotation=-70)
+plt.title("Average Value of each State ")
+plt.tight_layout()
+plt.legend()
+plt.savefig(f'State Analysis/State Value trend.jpg')
+plt.show()
+```
+![State Value trend](https://user-images.githubusercontent.com/130382954/235270266-f9d59094-094c-4e36-84ee-d78e8ae0bb85.jpg)
+
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
 2.feature selection
