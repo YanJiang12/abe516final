@@ -25,7 +25,14 @@ Describe the data and its background info and Introduction to a research questio
 *   2.Reform the table by different Attributes
 * * *
 
-# analysis
+# Analysis
+
+```ruby
+# Ruby code with syntax highlighting
+GitHubPages::Dependencies.gems.each do |gem, version|
+  s.add_dependency(gem, "= #{version}")
+end
+```
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
 2.feature selection
