@@ -58,6 +58,26 @@ if not os.path.exists("Attribute Analysis"):
 
 * * *
 
+```
+# Analysis by States
+for state in sorted(data1.State.unique()):
+    data2 = data1[data1["State"] == state]
+    mean1 = data2.Value.mean()
+    dict1[state] = mean1
+    plt.figure(figsize=(12, 8))
+    for attribute in data2.Attribute.unique():
+        year_dict1 = {i: 0 for i in year1}
+        data3 = data2[data2["Attribute"]==attribute]
+        for m in range(data3.shape[0]):
+            year_dict1[list(data3["Year"])[m]] = list(data3["Value"])[m]
+        plt.plot(year1, year_dict1.values(), marker='o', label=attribute.replace('percent','percent\n'))
+    plt.xticks(fontproperties='Times New Roman', fontsize=10)
+    plt.yticks(fontproperties='Times New Roman', fontsize=10)
+    plt.title(f'The trend of each Attributes in {state}')
+    plt.legend()
+    plt.savefig(f'State Analysis/{state}.jpg')
+    plt.show()
+```
 ![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253790-972935ec-ec02-43f1-b4fc-f1e46bba21cd.png)
 
 Project describes integration of class concepts and discusses why analysis was chosen
