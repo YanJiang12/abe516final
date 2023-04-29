@@ -143,6 +143,44 @@ Project describes integration of class concepts and discusses why analysis was c
 comparison on features
 ability to product yields
 what data is useful/missing
+
+According to the analysis on states, Mississippi gets the highest average value as 62 points. It indicates this state is the best place of growing the biotech crop during the year 2000 to 2022.
+
+
+- By each states:
+  - ALabama: Stacked gene of upland cotton
+  - Arkansas： All GE of upland cotton
+  - Califonia：All GE of upland cotton
+  - Georgia： Stacked gene of upland cotton
+  - Illinois： Herbicide-tolerant of all soybeans,
+  - Indiana： Herbicide-tolerant of all soybeans
+  - Iowa： Herbicide-tolerant of soybeans
+  - Kansas： Herbicide-tolerant of soybeans
+  - Louisiana： Stacked gene of upland cotton
+  - Mississippi： Herbicide-tolerant of soybeans
+  - Missouri： All GE of upland cotton
+  - Nebraska ： Herbicide-tolerant of soybeans
+  - North Carolina：Stacked gene of upland cotton
+  - North Dakota： Herbicide-tolerant of soybeans
+  - Ohio： Herbicide-tolerant of soybeans
+  - South Dakota：herbicide-tolerant of soybeans
+  - Tenessee：Stacked gene of upland cotton
+  - Texas：all GE of upland cotton
+  - Wisconsin：Herbicide-tolerant of soybean
+
+According to the analysis on attributes, the herbicide-tolerant soybean have the highest average score as 88 points. It means these two kinds soybean has the best growth during the year 2000 to 2022. 
+
+- By each attributes
+  - All GE of corn planted: Missouri
+  - All GE of soybean: Mississippi
+  - All GE of upland cotton: Tenessee
+  - Herbicide-tolerant of corn: North Dakota
+  - Herbicide-tolerant of soybean: Mississippi
+  - Herbicide-tolerant of upland cotton: Missouri
+  - Insect-resistant of corn: Texas
+  - Insect-resistant of soybean: California
+  - Insect-resistant of upland cotton:Illinois
+
 * * *
 
 # Methods
