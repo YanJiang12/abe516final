@@ -5,8 +5,6 @@ layout: default
 [Link to another page](./another-page.html).
 
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
 # Introduction
 
   This is the transgenic crop value data in each states from the year 2000 to 2022. It discribe the corn, soybean, upland cotton by deviding them into categories as all GE varieties, Herbicide-tolerant, insect resistance, stacked gene varieties.
