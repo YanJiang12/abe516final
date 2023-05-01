@@ -70,6 +70,7 @@ for state in sorted(data1.State.unique()):
     plt.savefig(f'State Analysis/{state}.jpg')
     plt.show()
 ```
+
 ![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253790-972935ec-ec02-43f1-b4fc-f1e46bba21cd.png)
 
 ```
@@ -132,9 +133,6 @@ Project describes integration of class concepts and discusses why analysis was c
 3.custer plots
 * * *
 # Reflection 
-comparison on features
-ability to product yields
-what data is useful/missing
 
 According to the analysis on states, Mississippi gets the highest average value as 62 points. It indicates this state is the best place of growing the biotech crop during the year 2000 to 2022.
 
@@ -176,9 +174,6 @@ According to the analysis on attributes, the herbicide-tolerant soybean have the
 * * *
 
 # Methods
-what from the class did you use in this project and why might it be useful for research projects like this?
-What are the advantages and disadvantages?  
-Were there any assumptions or transformations needed? 
 
 *   The machine learning is the major method used in the project.
 
@@ -197,30 +192,19 @@ There is no requirement for the transformation for the dataset. The python langu
 * * *
 
 # Discussion
-How much does your analysis attain the FAIR principles? For example, what is the ability to automate and reproduce your analysis (if the file input were to change, could this analysis be reproduced and how easily?)  - how will someone else reproduce this analysis?  Is the data stored somewhere?  Can I reproduce the figures easily?
-Creation of one assignment based on your dataset for the class to complete - one can think of this of a task or homework assignment based on your project.
 
+My dataset file is free to access from the USDA website. Feel free to use:
 
+https://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-u-s/
 
+It is fully findable, accessible, reusable and available. Also I put the files, both the datas and results, in the github for reproducing this analysis. 
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+Learning the regularity of the recorded can help figuring out the advantage and disadvantages of each states for planting the crops and predicting the future biotech development direction.
+* * *
 
+# Assignment 
 
+Please present the analysis by boxplot table.  
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-
-
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
 
 
