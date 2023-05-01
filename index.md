@@ -7,8 +7,9 @@ https://yanjiang12.github.io/abe516final/
 
   This is the transgenic crop value data in each states from the year 2000 to 2022. It discribe the corn, soybean, upland cotton by deviding them into categories as all GE varieties, Herbicide-tolerant, insect resistance, stacked gene varieties.
   
-  Studying this data table can be helpful on figuring out the advantage and disadvantages of each states for planting the crops and predicting the future biotech development direction.
+  The question on this dataset is how could we know the advantage and disadvantages of each states for planting the crops . Also, can we predict the future biotech development direction?
 
+  At first, I tried to look at the table by myself. But it is full of numbers without any relationship. So  I decided  to use python help me resampling statistic and using machine learning to figure out how are they connected.
 
 * * *
 # Reform
@@ -177,7 +178,7 @@ According to the analysis on attributes, the herbicide-tolerant soybean have the
 
 # Methods
 
-*   The machine learning is the major method used in the project.
+*   The machine learning is the major method used in the project, including the resampling statistics, Linear Regression, etc.
 
 *   Machine learning is a subfield of artificial intelligence that  enable computer systems to automatically learn and improve from experience without being explicitly programmed. Its limitations include the potential for biased results, overfitting, and the need for large amounts of high-quality data. Despite these limitations, machine learning can be useful for research projects because it can uncover patterns and relationships in data that might not be immediately apparent to human analysts, enabling researchers to make more accurate predictions and identify new insights that can drive further research.
 
