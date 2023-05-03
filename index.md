@@ -195,8 +195,11 @@ As the result of the attribute, we found the Iowa is not the best place for the 
 *   I used the os.path and matplotlib based on the python to process the massive data from the excel.
 *   Matplotlib provides visualization plots for each analysis target. It offers a wide range of visualization tools, including line plots, scatter plots, bar charts, histograms, and many more which I can customize to use.
 *   os.path provides a way to work with file paths and directories in a platform-independent way. It's very useful and easy using on splitting, joining, and manipulating file. It also raises exceptions for common errors such as invalid paths or permissions errors, which makes it easier to handle errors in code.
+*   However, it has some limitations in terms of functionality and efficiency. os.path provides basic functionality, when the tasks are more advanced, it require additional libraries
 
 *   There is no requirement for the transformation for the dataset. The python language can handle  it automatically.
+
+
 * * *
 
 # Discussion
