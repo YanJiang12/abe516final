@@ -77,6 +77,7 @@ for state in sorted(data1.State.unique()):
 ```
 
 ![2668740f467d4b3969303a8243163b2](https://user-images.githubusercontent.com/130382954/235253790-972935ec-ec02-43f1-b4fc-f1e46bba21cd.png)
+It indicates out the growth trend of different kinds of biotech crop and the suitable crop in that state land. 
 
 ```
 # State Average Value
@@ -93,7 +94,7 @@ plt.savefig(f'State Analysis/State Value trend.jpg')
 plt.show()
 ```
 ![State Value trend](https://user-images.githubusercontent.com/130382954/235270266-f9d59094-094c-4e36-84ee-d78e8ae0bb85.jpg)
-
+The Value X state table  points out the average value through the year 2000 to 2022 for all states. It points out the suitable states for growing the biotch crop study.
 * * *
 ```
 # Analysis by Attributes
@@ -116,7 +117,7 @@ for attribute in sorted(data1.Attribute.unique()):
     plt.show()
 ```
 ![All GE varieties (percent of all corn planted)](https://user-images.githubusercontent.com/130382954/235270338-ab5943a3-655e-43fb-acf1-0c179578dfe8.jpg)
-
+It indicates out the growth trend of each states for the specific biotech crop and the suitable state for that kind of crop.
 ```
 # Attribute Average Value
 dict2 = {k.replace(' (percent','(percent\n'): v for k, v in sorted(dict2.items(), key=lambda item: item[1],reverse=True)}
@@ -131,6 +132,7 @@ plt.savefig(f'Attribute Analysis/Attribute.jpg')
 plt.show()
 ```
 ![Attribute](https://user-images.githubusercontent.com/130382954/235270355-1988f8ad-eeee-4d86-b0b0-0fd74124f65b.jpg)
+The Value X attribute table  points out the average value through the year 2000 to 2022 for all attributes. It points out the highest value crop of all the biotech crop.
 
 Project describes integration of class concepts and discusses why analysis was chosen
 1.graph
@@ -199,6 +201,8 @@ There is no requirement for the transformation for the dataset. The python langu
 * * *
 
 # Discussion
+In the project, I ignored the blank numbers in the dataset as invalid record. 
+If treat the numbers as 0 here, the result may be totally different from now.
 
 My dataset file is free to access from the USDA website. Feel free to use:
 
