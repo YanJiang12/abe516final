@@ -9,11 +9,13 @@ layout: default
   
   The question on this dataset is the research team need to looking for a lab to learning about the GE corn toxicity, but they were confusing which state lab to choose. So they chose to get some data from the USDA website to leanr about the advantage of each states for planting the crops. 
   
+  https://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-u-s/
+  
   At first, I tried to look at the table by myself. But it is full of numbers without any relationship. So  I decided  to use python help me resampling statistic and using machine learning to figure out how are they connected.
 
 * * *
 # Reform
-*   1.Reform the table by different States
+*   1.Reform the table by different States to learn about the advantage of 
 
 *   2.Reform the table by different Attributes
 
@@ -173,6 +175,8 @@ According to the analysis on attributes, the herbicide-tolerant soybean have the
   - Insect-resistant of corn: Texas
   - Insect-resistant of soybean: California
   - Insect-resistant of upland cotton:Illinois
+
+As the result of the attribute, we found the Iowa is not the best place for the corn research, but Missouri is the most suitable state for it. So we started the cooperation with there local lab. 
 
 * * *
 
