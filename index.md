@@ -191,20 +191,12 @@ As the result of the attribute, we found the Iowa is not the best place for the 
 
 # Methods
 
-*   The machine learning is the major method used in the project, including the resampling statistics, Linear Regression, etc.
+*   The data processing and visualization are major methods in this project.
+*   I used the os.path and matplotlib based on the python to process the massive data from the excel.
+*   Matplotlib provides visualization plots for each analysis target. It offers a wide range of visualization tools, including line plots, scatter plots, bar charts, histograms, and many more which I can customize to use.
+*   os.path provides a way to work with file paths and directories in a platform-independent way. It's very useful and easy using on splitting, joining, and manipulating file. It also raises exceptions for common errors such as invalid paths or permissions errors, which makes it easier to handle errors in code.
 
-*   Machine learning is a subfield of artificial intelligence that  enable computer systems to automatically learn and improve from experience without being explicitly programmed. Its limitations include the potential for biased results, overfitting, and the need for large amounts of high-quality data. Despite these limitations, machine learning can be useful for research projects because it can uncover patterns and relationships in data that might not be immediately apparent to human analysts, enabling researchers to make more accurate predictions and identify new insights that can drive further research.
-
-*   Advantage:
-1.Easy to learn and use: Machine learning can be easily used in Python for analysisng data.
-
-2.Large selection of libraries and tools: I can directly input the file with large amount data.
-
-*   Disadvantage:
-
-Performance: It can not work well with complex dateset and it requirs the user to control the form of the dataset.
-
-There is no requirement for the transformation for the dataset. The python language can handle  it automatically.
+*   There is no requirement for the transformation for the dataset. The python language can handle  it automatically.
 * * *
 
 # Discussion
