@@ -5,6 +5,9 @@ layout: default
 
 # Introduction
 
+  Biotech crops, also known as genetically modified (GM) crops, are an important development in agriculture and food production. It’s also one of my research directions.
+  Biotech crops have been modified to improve their resistance to pests and environmental conditions, increase their nutritional content, and enhance their yield potential.
+  
   This is the transgenic crop value data in each states from the year 2000 to 2022. It discribe the corn, soybean, upland cotton by deviding them into categories as all GE varieties, Herbicide-tolerant, insect resistance, stacked gene varieties.
   
   The question on this dataset is the research team need to looking for a lab to learning about the GE corn growth, but they were confusing which state to choose for starting the experiment . So they chose to leanr about the advantage of each states from the USDA website's data.
