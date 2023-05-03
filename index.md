@@ -15,7 +15,7 @@ layout: default
 
 * * *
 # Reform
-*   1.Reform the table by different States to learn about the advantage of 
+*   1.Reform the table by different States
 
 *   2.Reform the table by different Attributes
 
