@@ -7,7 +7,7 @@ layout: default
 
   This is the transgenic crop value data in each states from the year 2000 to 2022. It discribe the corn, soybean, upland cotton by deviding them into categories as all GE varieties, Herbicide-tolerant, insect resistance, stacked gene varieties.
   
-  The question on this dataset is the research team need to looking for a lab to learning about the GE corn toxicity, but they were confusing which state lab to choose. So they chose to get some data from the USDA website to leanr about the advantage of each states for planting the crops. 
+  The question on this dataset is the research team need to looking for a lab to learning about the GE corn growth, but they were confusing which state to choose for starting the experiment . So they chose to leanr about the advantage of each states from the USDA website's data.
   
   https://www.ers.usda.gov/data-products/adoption-of-genetically-engineered-crops-in-the-u-s/
   
