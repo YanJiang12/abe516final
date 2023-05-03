@@ -7,8 +7,9 @@ layout: default
 
   This is the transgenic crop value data in each states from the year 2000 to 2022. It discribe the corn, soybean, upland cotton by deviding them into categories as all GE varieties, Herbicide-tolerant, insect resistance, stacked gene varieties.
   
-  The question on this dataset is how could we know the advantage and disadvantages of each states for planting the crops . Also, can we predict the future biotech development direction?
-
+  The question on this dataset is the research team need to looking for a lab to learning about the GE corn toxicity, but they were confusing which state lab to choose.
+  So we want to know the advantage of each states for planting the crops . Also, can we predict the future biotech development direction?
+  
   At first, I tried to look at the table by myself. But it is full of numbers without any relationship. So  I decided  to use python help me resampling statistic and using machine learning to figure out how are they connected.
 
 * * *
